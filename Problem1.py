@@ -1,3 +1,8 @@
+'''
+1. We perform deletion of rows based on condition on a column using filtering based on boolean array
+2. We use drop method to drop those indices which have failed the condition
+3. We drop based on multiple conditions on different columns
+'''
 import pandas as pd
 
 df = pd.read_csv('nba.csv')
